@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Abhi Bus Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Abhi Bus Test Cases(failed)">
+    <classes>
+      <class name="com.abhi.qa.testcases.SearchSeatPageTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setExtent"/>
+          <include name="bookOnwardandReturnTicket"/>
+        </methods>
+      </class> <!-- com.abhi.qa.testcases.SearchSeatPageTest -->
+    </classes>
+  </test> <!-- Abhi Bus Test Cases(failed) -->
+</suite> <!-- Failed suite [Abhi Bus Test Automation Test Suite] -->

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47181" started-at="2019-01-13T21:48:53Z" finished-at="2019-01-13T21:49:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47181" started-at="2019-01-13T21:48:53Z" finished-at="2019-01-13T21:49:40Z">
+      <class name="com.abhi.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.abhi.qa.testcases.HomePageTest@cb0ed20]" name="setExtent" is-config="true" duration-ms="641" started-at="2019-01-13T21:48:53Z" finished-at="2019-01-13T21:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.abhi.qa.testcases.HomePageTest@cb0ed20]" name="setUp" is-config="true" duration-ms="13897" started-at="2019-01-13T21:48:54Z" finished-at="2019-01-13T21:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="validateAbhiBusLogoToolTip()[pri:1, instance:com.abhi.qa.testcases.HomePageTest@cb0ed20]" name="validateAbhiBusLogoToolTip" duration-ms="1600" started-at="2019-01-13T21:49:07Z" finished-at="2019-01-13T21:49:09Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [abhibus.com - India's Fastest Online bus ticket booking sie] but found [abhibus.com - India's Fastest Online bus ticket booking site]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [abhibus.com - India's Fastest Online bus ticket booking sie] but found [abhibus.com - India's Fastest Online bus ticket booking site]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.abhi.qa.testcases.HomePageTest.validateAbhiBusLogoToolTip(HomePageTest.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAbhiBusLogoToolTip -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.abhi.qa.testcases.HomePageTest@cb0ed20]" name="tearDown" is-config="true" duration-ms="2085" started-at="2019-01-13T21:49:09Z" finished-at="2019-01-13T21:49:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAbhiBusLogoToolTip status=FAILURE method=HomePageTest.validateAbhiBusLogoToolTip()[pri:1, instance:com.abhi.qa.testcases.HomePageTest@cb0ed20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.abhi.qa.testcases.HomePageTest@cb0ed20]" name="setUp" is-config="true" duration-ms="10279" started-at="2019-01-13T21:49:11Z" finished-at="2019-01-13T21:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchSeat()[pri:2, instance:com.abhi.qa.testcases.HomePageTest@cb0ed20]" name="searchSeat" duration-ms="15544" started-at="2019-01-13T21:49:21Z" finished-at="2019-01-13T21:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSeat -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.abhi.qa.testcases.HomePageTest@cb0ed20]" name="tearDown" is-config="true" duration-ms="1807" started-at="2019-01-13T21:49:37Z" finished-at="2019-01-13T21:49:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchSeat status=SUCCESS method=HomePageTest.searchSeat()[pri:2, instance:com.abhi.qa.testcases.HomePageTest@cb0ed20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.abhi.qa.testcases.HomePageTest@cb0ed20]" name="endReport" is-config="true" duration-ms="1219" started-at="2019-01-13T21:49:39Z" finished-at="2019-01-13T21:49:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.abhi.qa.testcases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
